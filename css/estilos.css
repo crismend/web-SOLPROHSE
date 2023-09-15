@@ -240,7 +240,7 @@ a {
     margin-top: 5rem;
     color: transparent;
     letter-spacing: -0.015em;
-    background-image: linear-gradient(120deg, #f1f4ef, #e3fada, #dfeff7);
+    background-image: linear-gradient(120deg, #f1f4ef77, #ffffff7f);
     background-clip: text;
     -webkit-background-clip: text;
 }
@@ -256,12 +256,15 @@ a {
 
 
 .formulario-encabezado {
-    background-color: rgba(255, 255, 255, 0.134);
+    background-color: rgba(255, 254, 254, 0);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5rem;
     border-radius: 50%;
+}
+.formulario-encabezado img{
+    background-color: rgba(255, 254, 254, 0);
 }
 
 .formulario-encabezado h2 {
