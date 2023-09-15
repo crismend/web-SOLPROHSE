@@ -221,22 +221,22 @@
                 <p>solprohseqsas@gmail.com</p>
                 <p>+57 3112649272</p>
             </div>
-            <form class="formulario-contacto">
+            <form action="https://formsubmit.co/solprohseqsas@gmail.com" method="POST" class="formulario-contacto">
                 <div class="input-contacto">
                     <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" placeholder="nombre">
+                    <input name="nombre" type="text" id="nombre" placeholder="nombre" required>
                 </div>
                 <div class="input-contacto">
                     <label for="correo">Correo</label>
-                    <input type="text" id="correo" placeholder="example@example.com">
+                    <input name="correo" type="email" id="correo" placeholder="example@example.com" required>
                 </div>
                 <div class="input-contacto">
                     <label for="telefono">Teléfono</label>
-                    <input type="text" id="telefono" placeholder="0808080808">
+                    <input name="telefono" type="tel" id="telefono" placeholder="0808080808" required>
                 </div>
                 <div class="input-contacto">
-                    <label for="telefono">Mensaje</label>
-                    <textarea></textarea>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" rows="4"></textarea required>
                 </div>
                 <div class="input-contacto">
                     <input type="submit" value="Enviar" class="btn azul">
